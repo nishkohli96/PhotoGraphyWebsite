@@ -66,7 +66,7 @@ body{
     margin-left: 20px;
 }
 .card{
-    background-color: burlywood;
+    background-color: linen;
     border: 1px solid gray;
     margin: 10px 5px 5px 5px;
 }
@@ -82,9 +82,16 @@ body{
     height: 40%;
     margin-top: 20px;
 }
+.gallery-card-img{
+    width: 30% ;
+    height: 30%;
+}
 .card-body{
     margin: 0px 0px 20px 0px;
-    height: 150px;
+}
+.card_portfolio_body
+{
+    height: 180px;
 }
 .card-header{
     margin: 20px 0px 10px 0px;
