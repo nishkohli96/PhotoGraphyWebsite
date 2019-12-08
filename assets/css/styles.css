@@ -1,0 +1,95 @@
+
+.jumbotron{
+    margin-bottom: 0px;
+    background-color: #141212;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#homeCarousel {
+    width : 100vw;
+    height: 100vh;
+    margin: 0px 0px;
+}
+.img-fluid{
+    width : 100vw;
+    height: 100vh; 
+}
+
+.navbar{
+    background-color:#141212;
+    opacity: 50%;
+    width: 100vw;
+    height: 10vh;
+}
+.container_body{
+    margin-top: 15vh ;
+}
+.navlist{
+    margin-left: 20vw;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+  margin-right: 0px;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+.carousel-indicators li {
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    opacity: 50%;   
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+.carousel-indicators{
+    color:black;
+}
+#socialDiv{
+    margin-left: 20px;
+}
+.card{
+    background-color: burlywood;
+    border: 1px solid gray;
+    margin: 10px 5px 5px 5px;
+}
+#portfolio{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#card-row{
+    margin-top: 30px;
+}
+.card-img{
+    width: 90% ;
+    height: 40%;
+    margin-top: 20px;
+}
+.card-body{
+    margin: 0px 0px 20px 0px;
+    height: 150px;
+}
+.card-header{
+    margin: 20px 0px 10px 0px;
+}
+.footer{
+    border-radius: 0px;
+    color: lightgrey;
+}

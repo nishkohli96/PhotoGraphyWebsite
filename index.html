@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <!-- endbuild -->
+    <title>My PhotoGraphy Page</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <div class="row">
+            <div class="order-sm-first">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="#">NISHANT'S  PHOTOGRAPHY </a>
+            </div>
+            <div class="navlist order-sm-last">
+                <div class="collapse navbar-collapse " id="Navbar">
+                    <ul class="navbar-nav align-items-center order-sm-last ">
+                        <li class="nav-item active"> <a class="nav-link" href="#">HOME</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./gallery.html"> GALLERY </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./about.html"> ABOUT </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./contact.html"> CONTACT </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+       
+    <div class="carousel slide" data-ride="carousel" id="homeCarousel" >
+        <div class="carousel-inner" role="listbox" data-interval="4000">
+            <div class="carousel-item active">
+                <img class="d-block img-fluid" src="assets/img/elephants.JPG" alt="Elephants in Kenya">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="assets/img/mountains.JPG" alt="Mountains">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="assets/img/mysPalace.jpg" alt="Mysore Palace">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="assets/img/beach.jpg" alt="Kaup Beach">
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#homeCarousel" data-slide-to="1"></li>
+            <li data-target="#homeCarousel" data-slide-to="2"></li>
+            <li data-target="#homeCarousel" data-slide-to="3"></li>
+        </ol>
+        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>  
+    </div>
+
+    <div class=" container" id="portfolio">
+        <div class="row justify-content-center">
+            <h1> My Portfolio </h1>
+        </div>
+        <div class="row" id="card-row">
+            <div class="col-12 col-sm-4">
+                <div class="card">
+                    <img class="card-img-top card-img mx-auto d-block" src="assets/img/brand_marketing.jpg" alt="Adobe Photoshop">
+                    <h4 class="card-header bg-warning text-white">Brand Marketing</h4>
+                    <div class="card-body">
+                      <p class="card-text"> Logo & Cover-Image Design </p>
+                      <p class="card-text"> Product Photoshoot </p> 
+                      <p class="card-text"> Brand Marketing </p>                     
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="card">
+                    <img class="card-img-top card-img mx-auto d-block" src="assets/img/photoshop.jpg" alt="Adobe Photoshop">
+                    <h4 class="card-header bg-warning text-white">Photoshop & Video Editing</h4>
+                    <div class="card-body">                      
+                      <p class="card-text"> Professional Photo & Video Editing </p>
+                      <p class="card-text"> Self-made presets for rendering </p>
+                      <p class="card-text"> Creating own Illustrations </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-12 col-sm-4">
+                <div class="card ">
+                    <img class="card-img-top card-img mx-auto d-block" src="assets/img/doodle.jpg" alt="Adobe Photoshop">
+                    <h4 class="card-header bg-warning text-white">Others</h4>
+                    <div class="card-body">
+                      <p class="card-text"> Doodling </p>
+                      <p class="card-text"> PhotoGraphy Workshops </p>
+                      <p class="card-text"> Custom Prints </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="jumbotron footer">
+        <!-- <div class="jumbotron"> -->
+            <div class="row justify-content-center">
+                <h4> Connect with me : </h4>
+                <div class="text-center"id="socialDiv">
+                    <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/Nishious"><i class="fa fa-facebook "></i></a>
+                    <a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/nocturnal_nish/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/Nishious"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/nishant-kohli-452481109/"><i class="fa fa-linkedin fa-lg"></i></a>
+                    <a class="btn btn-social-icon bg-primary" target="_blank" href="mailto:nishkohli96@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+                </div>
+            </div>    
+            <br>
+            <div class="row justify-content-center">             
+                <div class="col-auto ">
+                    <p>© Nishant's PhotoGraphy</p>
+                </div>
+           </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+</body>
+
+</html>
