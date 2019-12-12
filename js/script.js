@@ -1,35 +1,61 @@
 
-$(document).ready(function()
-{
-  $("#homeCarousels").carousel({ interval : 2000 }); 
-});
   var slideIndex = 1;
-showSlides(slideIndex);
+  var newIndex = slideIndex;
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  $("#link_nature_pics").click(function(){
+    slideIndex = 1;
+    showSlides(slideIndex);
+  });
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+  $("#link_wildlife_pics").click(function(){
+    slideIndex = 7;
+    showSlides(slideIndex);
+  });
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  $("#link_landmark_pics").click(function(){
+    slideIndex = 13;
+    showSlides(slideIndex);
+  });
+
+  $("#link_human_pics").click(function(){
+    slideIndex = 19;
+    showSlides(slideIndex);
+  });
+
+  $("#link_random_pics").click(function(){
+    slideIndex = 25;
+    showSlides(slideIndex);
+  });
+
+  // Next/previous controls
+  function plusSlides(n) 
+  {
+    newIndex = newIndex + n ;
+    if (newIndex > slideIndex + 5) { newIndex = slideIndex }
+    if (newIndex < slideIndex) { newIndex = slideIndex + 5 }
+    showSlides(newIndex);
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+
+  // Thumbnail image controls
+ 
+  function showSlides(n) 
+  {
+    var i;
+    var slides = document.getElementsByClassName("gallerySlides");
+    var dots = document.getElementsByClassName("demo");
+
+    for (i = 0; i < slides.length; i++) 
+    {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) 
+    {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[n-1].style.display = "block";
+    dots[n-1].className += " active";
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
+  function currentSlide(n) 
+  {
+    showSlides(slideIndex = n);
+  }

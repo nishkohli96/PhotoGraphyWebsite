@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <!-- endbuild -->
+    <title>My PhotoGraphy Page</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <div class="row">
+            <div class="order-sm-first">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="#">NISHANT'S  PHOTOGRAPHY </a>
+            </div>
+            <div class="navlist order-sm-last">
+                <div class="collapse navbar-collapse " id="Navbar">
+                    <ul class="navbar-nav align-items-center order-sm-last ">
+                        <li class="nav-item"> <a class="nav-link" href="./index.html">HOME</a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="#"> GALLERY </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./about.html"> ABOUT </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./contact.html"> CONTACT </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    
+    <div class="container container_body">
+        <h3 class="text-center"> Presenting some of my favourite shots of all time....  </h3>
+        <h6 class="text-center"> You can find some more on my <a href="https://www.instagram.com/nocturnal_nish/" target="_blank"> Instagram Profile </a></h6>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3">
+
+            <div class="col-12 col-sm-4 mb-4">
+              <div class="card">
+                <img src="assets/img/hutinwoods.jpg" class="card-img-top" alt="Nature Cover Img">
+                <div class="card-body">
+                  <h5 class="card-title">Nature Photography</h5>
+                  <a class="btn btn-primary" id="link_nature_pics" data-toggle="modal" data-target="#modal_naturePics">View More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+              <div class="card">
+                <img src="assets/img/gazelle.JPG" class="card-img-top" alt="Wildlife Cover Img">
+                <div class="card-body">
+                  <h5 class="card-title">Wildlife Photography</h5>
+                  <a class="btn btn-primary" id="link_wildlife_pics" data-toggle="modal" data-target="#modal_wildlifePics">View More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">  
+              <div class="card">
+                <img src="assets/img/italy.JPG" class="card-img-top" alt="Italy">
+                <div class="card-body">
+                  <h5 class="card-title">Landmark Photography</h5>
+                  <a class="btn btn-primary" id="link_landmark_pics" data-toggle="modal" data-target="#modal_LandmarkPics">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col-12 col-sm-4 mb-4">
+              <div class="card">
+                <img src="assets/img/oldman.JPG" class="card-img-top " alt="Old Man">
+                <div class="card-body">
+                  <h5 class="card-title">Human Photography</h5>
+                  <a class="btn btn-primary" id="link_human_pics" data-toggle="modal" data-target="#modal_HumanPics">View More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+              <div class="card">
+                <img src="assets/img/landcruiser.jpg" class="card-img-top" alt="Landcruiser">
+                <div class="card-body">
+                  <h5 class="card-title">Random Clicks</h5>
+                  <a class="btn btn-primary" id="link_random_pics" data-toggle="modal" data-target="#modal_RandomPics">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="modal_naturePics" class="modal fade" role="dialog">
+      <div class="modal-dialog model-lg" role="content">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" >&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container" id="img_container">
+                
+              <!-- Full-width images with number text -->
+              <div class=" gallerySlides">
+                <img src="assets/img/hutinwoods.jpg" alt="Woods" class="img_gallery mx-auto d-block">
+              </div>
+              <div class="gallerySlides">
+                <img src="assets/img/sea.jpg" alt="Sea" class="img_gallery mx-auto d-block">
+              </div>                
+              <div class="gallerySlides">
+                <img src="assets/img/path.JPG" alt="Path" class="img_gallery mx-auto d-block">
+              </div>
+              <div class="gallerySlides">
+                <img src="assets/img/mountain.jpg" alt="Mountains" class="img_gallery mx-auto d-block">
+              </div>
+              <div class="gallerySlides">
+                <img src="assets/img/flowers.jpg" alt="Flowers" class="img_gallery mx-auto d-block">
+              </div>
+              <div class="gallerySlides">
+                <img src="assets/img/bluegreen.jpg" alt="Coast" class="img_gallery mx-auto d-block">
+              </div>
+                
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+              <!-- Thumbnail images -->
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/hutinwoods.jpg" style="width:100%;height:75%;" onclick="currentSlide(1)" alt="Woods">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/sea.jpg" style="width:100%;height:75%;" onclick="currentSlide(2)" alt="Sea">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/path.jpg" style="width:100%;height:75%;" onclick="currentSlide(3)" alt="Path">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/mountain.jpg" style="width:100%;height:75%;" onclick="currentSlide(4)" alt="Mountains">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/flowers.jpg" style="width:100%;height:75%;" onclick="currentSlide(5)" alt="Flowers">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/img/bluegreen.jpg" style="width:100%;height:75%;" onclick="currentSlide(6)" alt="Coast">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal_wildlifePics" class="modal fade" role="document">
+        <div class="modal-dialog model-lg" role="content">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" >&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container" id="img_container">
+                  
+                <!-- Full-width images with number text -->
+                <div class="gallerySlides">
+                  <img src="assets/img/gazelle.jpg" alt="Gazelle" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/croc.jpg" alt="Crocodile" class="img_gallery mx-auto d-block">
+                </div>                
+                <div class="gallerySlides">
+                  <img src="assets/img/leopard.JPG" alt="Leopard" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/owl.jpg" alt="Owl" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/giraffe.JPG" alt="Giraffe" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/coral.JPG" alt="Coral" class="img_gallery mx-auto d-block">
+                </div>
+                  
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/gazelle.jpg" style="width:100%;height:75%;" onclick="currentSlide(7)" alt="Gazelle">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/croc.jpg" style="width:100%;height:75%;" onclick="currentSlide(8)" alt="Crocodile">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/leopard.JPG" style="width:100%;height:75%;" onclick="currentSlide(9)" alt="Leopard">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/owl.jpg" style="width:100%;height:75%;" onclick="currentSlide(10)" alt="Owl">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/giraffe.JPG" style="width:100%;height:75%;" onclick="currentSlide(11)" alt="Giraffe">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/coral.JPG" style="width:100%;height:75%;" onclick="currentSlide(12)" alt="Coral">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_LandmarkPics" class="modal fade" role="document">
+        <div class="modal-dialog model-lg" role="content">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" >&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container" id="img_container">
+                  
+                <!-- Full-width images with number text -->
+                <div class="gallerySlides">
+                  <img src="assets/img/italy.jpg" alt="Italy" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/russiapalace.JPG" alt="Russia" class="img_gallery mx-auto d-block">
+                </div>                
+                <div class="gallerySlides">
+                  <img src="assets/img/dubaimosque.JPG" alt="Mosque" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/bridge.JPG" alt="Bridge" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/burj.jpg" alt="Dubai" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/shimla.jpg" alt="Shimla" class="img_gallery mx-auto d-block">
+                </div>
+                  
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/italy.JPG" style="width:100%;height:75%;" onclick="currentSlide(13)" alt="Italy">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/russiapalace.JPG" style="width:100%;height:75%;" onclick="currentSlide(14)" alt="Russia">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/dubaimosque.JPG" style="width:100%;height:75%;" onclick="currentSlide(15)" alt="Mosque>">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/bridge.JPG" style="width:100%;height:75%;" onclick="currentSlide(16)" alt="Bridge">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/burj.jpg" style="width:100%;height:75%;" onclick="currentSlide(17)" alt="Dubai">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/shimla.jpg" style="width:100%;height:75%;" onclick="currentSlide(18)" alt="Shimla">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_HumanPics" class="modal fade" role="document">
+        <div class="modal-dialog model-lg" role="content">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" >&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container" id="img_container">
+                  
+                <!-- Full-width images with number text -->
+                <div class="gallerySlides">
+                  <img src="assets/img/oldman.JPG" alt="OldMan" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/windmill.JPG" alt="Windmill" class="img_gallery mx-auto d-block">
+                </div>                
+                <div class="gallerySlides">
+                  <img src="assets/img/kittens.jpg" alt="Kittens" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/bananas.jpg" alt="Bananas" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/ganesh.JPG" alt="GaneshJi" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/bluegreen.jpg" alt="Coast" class="img_gallery mx-auto d-block">
+                </div>
+                  
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/oldman.JPG" style="width:100%;height:75%;" onclick="currentSlide(19)" alt="OldMan">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/windmill.JPG" style="width:100%;height:75%;" onclick="currentSlide(20)" alt="Windmill">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/kittens.jpg" style="width:100%;height:75%;" onclick="currentSlide(21)" alt="Kittens">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/bananas.jpg" style="width:100%;height:75%;" onclick="currentSlide(22)" alt="Bananas">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/ganesh.JPG" style="width:100%;height:75%;" onclick="currentSlide(23)" alt="GaneshJi">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/bluegreen.jpg" style="width:100%;height:75%;" onclick="currentSlide(24)" alt="Coast">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+      <div id="modal_RandomPics" class="modal fade" role="document">
+        <div class="modal-dialog model-lg" role="content">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" >&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container" id="img_container">
+                  
+                <!-- Full-width images with number text -->
+                <div class="gallerySlides">
+                  <img src="assets/img/landcruiser.jpg" alt="Landcruiser" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/windmill.JPG" alt="Windmill" class="img_gallery mx-auto d-block">
+                </div>                
+                <div class="gallerySlides">
+                  <img src="assets/img/kittens.jpg" alt="Kittens" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/bananas.jpg" alt="Bananas" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/ganesh.JPG" alt="GaneshJi" class="img_gallery mx-auto d-block">
+                </div>
+                <div class="gallerySlides">
+                  <img src="assets/img/bluegreen.jpg" alt="Coast" class="img_gallery mx-auto d-block">
+                </div>
+                  
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/landcruiser.jpg" style="width:100%;height:75%;" onclick="currentSlide(25)" alt="Landcruiser">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/windmill.JPG" style="width:100%;height:75%;" onclick="currentSlide(26)" alt="Windmill">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/kittens.jpg" style="width:100%;height:75%;" onclick="currentSlide(27)" alt="Kittens">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/bananas.jpg" style="width:100%;height:75%;" onclick="currentSlide(28)" alt="Bananas">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/ganesh.JPG" style="width:100%;height:75%;" onclick="currentSlide(29)" alt="GaneshJi">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="assets/img/bluegreen.jpg" style="width:100%;height:75%;" onclick="currentSlide(30)" alt="Coast">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <footer class="jumbotron footer">
+            <!-- <div class="jumbotron"> -->
+                <div class="row justify-content-center">
+                    <h4> Connect with me : </h4>
+                    <div class="text-center"id="socialDiv">
+                        <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/Nishious"><i class="fa fa-facebook "></i></a>
+                        <a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/nocturnal_nish/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/Nishious"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/nishant-kohli-452481109/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon bg-primary" target="_blank" href="mailto:nishkohli96@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>    
+                <br>
+                <div class="row justify-content-center">             
+                    <div class="col-auto ">
+                        <p>© Nishant's PhotoGraphy</p>
+                    </div>
+               </div>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="/node_modules/jquery/dist/jquery.js"></script>
+        <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="./js/script.js"></script>
+    
+    </body>
+    
+    </html>

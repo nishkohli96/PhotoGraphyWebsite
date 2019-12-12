@@ -1,0 +1,25 @@
+{
+  "name": "PhotoGraphyWebsite",
+  "version": "1.0.0",
+  "description": "My Page for photography",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [],
+  "author": "Nishant Kohli",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "lite-server": "^2.5.4",
+    "onchange": "^6.1.0"
+  },
+  "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "owl.carousel": "^2.3.4",
+    "scss": "^0.2.4"
+  }
+}
